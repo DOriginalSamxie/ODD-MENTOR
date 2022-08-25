@@ -1,10 +1,19 @@
 .btn {
-  left: 84.24%;
-  right: 5.56%;
-  top: 1.25%;
-  bottom: 97.31%;
-
   background: #4a90e2;
   box-shadow: 0px 20px 30px rgba(24, 30, 54, 0.035566);
   border-radius: 50px;
+  color: white;
+  height: 61px;
+
+  width: 171px;
+
+  border-radius: 50px;
+  text-align: center;
+  font-size: 23px;
+  font-family: DM Sans;
+
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 0px;
+  text-align: center;
 }
