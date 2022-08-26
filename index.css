@@ -35,8 +35,8 @@ section {
 }
 
 img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+
   object-fit: cover;
 }
 
@@ -175,6 +175,10 @@ header {
 .dribble-container {
   margin-top: 175.73px;
 }
+.dribble-content {
+  width: 1268px;
+  /* margin-left: 148px; */
+}
 
 .dribble-container h2 {
   font-family: 'IBM Plex Serif';
@@ -187,3 +191,120 @@ header {
 
   color: #3d3f42;
 }
+
+.dribble-icons {
+  margin-top: 105.18px;
+}
+
+.dribble-icons ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dribble-icons img {
+  width: 72.81px;
+}
+.dribble-icons span {
+  font-family: Rajdhani;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.529411792755127px;
+  text-align: center;
+}
+
+.dribble-icons p {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  height: 87px;
+  /* or 140% */
+
+  /* text-align: center; */
+
+  color: #333448;
+}
+
+.middle-container {
+  margin-top: 128px;
+  align-items: center;
+}
+
+.middle-content {
+  display: flex;
+}
+
+.middle-content .middle-text {
+  width: 525px;
+  margin-left: 87px;
+}
+
+.middle-content h5 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  height: 26px;
+}
+
+/*
+
+.dribble-icons li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.dribble-text {
+  margin-top: 23.08px;
+}
+
+.dribble-text ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dribble-text li {
+  list-style: none;
+  
+  font-family: Rajdhani;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.529411792755127px;
+  text-align: center;
+ 
+  letter-spacing: 0.529412px;
+  align-items: center;
+
+  color: #8c8e91;
+}
+
+.dribble-subtitle {
+  margin-top: 1.2px;
+}
+
+.dribble-subtitle ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dribble-subtitle li {
+  list-style: none;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #333448;
+  align-items: center;
+}
+
+.dribble-subtitle li:nth-last-child(2) {
+  color: red;
+  padding-right: 20px;
+} */
