@@ -79,8 +79,6 @@ nav .logo {
 .nav-items li {
   list-style: none;
   margin-right: 20px;
-
-  height: 23px;
 }
 
 .nav-items li a {
@@ -118,7 +116,7 @@ header {
   top: -50px;
 }
 .hero-content {
-  width: 30%;
+  width: 50%;
 }
 .hero-content h1 {
   font-family: IBM Plex Serif;
@@ -177,9 +175,10 @@ header {
 .hero-content input {
   font-family: 'DM Sans';
   font-size: 23px;
-  border: 1px solid #e9e9e9;
-  box-shadow: 0px 20px 30px rgba(24, 30, 54, 0.035566);
+
+  box-shadow: 0px 20px 30px rgba(251, 251, 251, 0.036);
   border-radius: 50px;
+  outline: none;
 
   position: relative;
 
@@ -202,8 +201,13 @@ header {
   margin-top: 175.73px;
 }
 .dribble-content {
-  width: 1268px;
   /* margin-left: 148px; */
+}
+
+.dribble-content .dribble-image {
+  margin-top: 20px;
+  width: 90%;
+  text-align: center;
 }
 
 .dribble-container h2 {
@@ -227,15 +231,35 @@ header {
 
 .middle-content {
   display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
+.middle-content .middle-image {
+  /* width: 48%; */
+  margin: 2%;
+  min-width: 500px;
+  margin-bottom: 10px;
+  flex: 1;
+}
 .middle-content img {
   width: 100%;
   padding-right: 87px;
 }
 
 .middle-content .middle-text {
-  width: 40%;
+  width: 48%;
+}
+.middle-text {
+  width: 48%;
+  display: flex;
+
+  margin: 0px 2%;
+  padding: 24px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .middle-text span {
@@ -250,14 +274,11 @@ header {
 
 .middle-text h2 {
   font-family: IBM Plex Serif;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
-
   letter-spacing: 0px;
   text-align: left;
-
-  /* identical to box height, or 119% */
-  margin-top: 15px;
+  margin: 10px 0px;
   color: #222527;
 }
 
@@ -267,8 +288,7 @@ header {
   font-weight: 400;
   font-size: 27px;
   line-height: 32px;
-  /* or 119% */
-
+  margin: 5px 0;
   color: #595b5f;
 }
 
@@ -283,9 +303,12 @@ header {
   color: #8a919c;
 }
 
+.middle-text .btn-explore {
+  font-size: 18px;
+}
 .middle-text a {
-  margin-top: 24px;
   padding: 15px;
+  font-size: 18px;
 }
 
 .get-started h6 {
