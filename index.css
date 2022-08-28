@@ -583,7 +583,7 @@ hero-content .double-border{
  }
  .middle-text h2{
   margin-top: 32px;
-  font-size: 57px;
+  font-size: 50px;
  }
  .middle-text h3{
   font-size: 34px !important;
@@ -594,6 +594,9 @@ hero-content .double-border{
  }
   .middle-text .btn-explore{
     margin-top: 30px;
+  }
+  .work-session h1{
+    font-size: 33px;
   }
 
   .work-text{
