@@ -178,7 +178,7 @@ header {
   border: 3px solid rgba(251, 114, 103, 0.5);
   width: fit-content;
   height: 50px;
-  margin: 20px;
+  margin: 20px 5px 20px;
 }
 
 .hero-content input {
@@ -472,6 +472,7 @@ header {
 @media(max-width: 800px){
   nav ul{
     flex-wrap: wrap;
+    text-align-last:right ;
   }
  .navbar-toggle{
     display: block;
@@ -480,21 +481,20 @@ header {
   }
   header{
     flex-direction: column;
-    margin-top: 14px;
+    margin-top: 30px;
   }
  
 .hero-content{
-  width: 75%;
+  width: 80%;
 }
 hero-content .double-border{
-      
-    width: 350px;
+
     
 }
   .hero-content h1{
   font-weight: 600;
    font-size: 48px;
-   line-height: 48px;
+   
    
   }
   .hero-content p{
@@ -502,6 +502,20 @@ hero-content .double-border{
   }
   .hero-image{
     flex-grow: 2;
+  }
+  .dribble-container{
+    margin-top: 15%;
+  }
+  .middle-container{
+    margin-top: 5%;
+  }
+
+  .get-started h6{
+    margin-top: 20%;
+    margin-bottom: 20px;
+  }
+  .middle-text .btn-explore{
+    margin-top: 30px;
   }
 
   .work-text{
