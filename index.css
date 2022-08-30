@@ -563,10 +563,11 @@ div.mentor{
   display: block;  
   align-items: center;  
   margin-top: 28px;
-    width: 100%;
+    width: 85%;
 }
 .mentor img{
-  width: 100%;
+  width: 85%;
+  align-items: center;
 }
   .hero-content h1{
   font-weight: 600;
