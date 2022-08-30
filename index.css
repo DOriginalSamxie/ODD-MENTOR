@@ -182,6 +182,7 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
+  color:#979797;
 }
 
 .hero-content .double-border {
@@ -523,6 +524,13 @@ font-family: 'DM Sans';
   color: rgba(18, 17, 39, 0.56);
   font-size: 16px;
 }
+ .middle-text button{
+    width: 50%;
+    border: none;
+  }
+  div.mentor{
+   display: none;
+  }
 @media(max-width: 800px){
   nav ul{
     flex-wrap: wrap;
@@ -537,16 +545,28 @@ font-family: 'DM Sans';
     flex-direction: column;
     margin-top: 30px;
   }
+
  
 .hero-content{
   width: 83%;
 }
+.hero-content span {
+  display: none;
+}
+div.double-border{
+  display: none;
+}
 .hero-content a .btn{
     display: block;
 }
-hero-content .double-border{
-
-    
+div.mentor{
+  display: block;  
+  align-items: center;  
+  margin-top: 28px;
+    width: 100%;
+}
+.mentor img{
+  width: 100%;
 }
   .hero-content h1{
   font-weight: 600;
@@ -572,6 +592,9 @@ hero-content .double-border{
     text-align: center;
     margin-top: 31px;
   }
+  .dribble-container h2{
+    margin-top: -60px;
+  }
   .middle-container{
     margin-top: 5%;
   }
@@ -592,8 +615,8 @@ hero-content .double-border{
  .middle-text p{
   line-height: 40px;
  }
-  .middle-text .btn-explore{
-    margin-top: 30px;
+  .middle-text button{
+    width: 100%;
   }
   .work-session h1{
     font-size: 33px;
